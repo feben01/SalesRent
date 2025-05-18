@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>VERIFY YOUR ACCOUNT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h1 {
+            color: #d32f2f;
+            font-size: 24px;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .footer {
+            background-color: #e9ecef;
+            color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rent Properties Management</h1>
+        </div>
+        <div class="content">
+            <h1>Registration Successful</h1>
+            <p>Dear <%= first_name %>
+                    <%= last_name %>,</p>
+            <p>Your OTP Code is: <%= otp %>
+            </p>
+            <p>Thank you for registering to use our Property Management System</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Property Management System. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>

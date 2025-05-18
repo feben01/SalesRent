@@ -1,0 +1,103 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.signup-form input,
+.signup-form select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.subscription-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.subscription-card {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subscription-card.selected {
+  border-color: #007BFF;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.subscription-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subscription-card p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.subscription-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subscription-card li {
+  margin-bottom: 10px;
+  color: #333;
+}
